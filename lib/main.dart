@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'chat_page.dart';
+//import 'chat_page.dart';
+import 'counter_stateful_demo.dart';
 //import 'login_page.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class ChatApp extends StatelessWidget {
     return MaterialApp(
       title: "Chat App",
       theme: ThemeData(primarySwatch: Colors.yellow),
-      home: const ChatPage(),
+      home: const CounterStateful(),
     );
   }
 }
