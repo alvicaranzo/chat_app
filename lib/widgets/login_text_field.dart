@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../utils/textfield_styles.dart';
 
 class LoginTextField extends StatelessWidget {
